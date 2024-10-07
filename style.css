@@ -1,0 +1,70 @@
+#imageContainer {
+    display: none; /* Hidden initially */
+
+}
+body{
+    background-image: url('back1.avif');
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Avoids repeating the background */
+    height: 100vh; /* Makes sure the body takes the full viewport height */
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    display: flex; /* This helps center the content if needed */
+    justify-content: center; /* Centers child content horizontally */
+    align-items: center; /* Centers child content vertically */
+}   
+   
+#WelcomeCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(255, 255, 255);
+    opacity:0.8;
+    padding: 2rem;
+    width: 90%;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 999;
+    background-image: url('giphy.gif');
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    border: 2px;
+
+   
+}
+#WelcomeCard h1{
+    font-size:2.4rem;
+    text-shadow: 4px 3px white;
+
+
+}
+#WelcomeCard p{
+    font-size:1.2rem;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    margin-bottom: 0;
+
+    /* color: red; */
+}
+#showImageButton {
+    padding: 0.8rem 2rem;
+    background-color:black;
+    color:goldenrod;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+#showImageButton:hover {
+    background-color:goldenrod;
+    color: black;
+}
